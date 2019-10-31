@@ -1,0 +1,11 @@
+//all sizes
+.navigation {
+  height: 60px;
+}
+
+//mobile
+@media only screen and (max-width: 1280px) {
+  .navigation {
+    height: 50px;
+  }
+}

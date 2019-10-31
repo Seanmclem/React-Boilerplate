@@ -1,0 +1,14 @@
+#home-page {
+  //use all: initial?
+
+  @media (min-width: 600px) and (max-width: 9999px) {
+    //desktop
+  }
+  @media (min-width: 350px) and (max-width: 599px) {
+    //phone
+  }
+
+  @media (max-width: 349px) {
+    //teeny tiny
+  }
+}
