@@ -2,5 +2,7 @@ import React from 'react'
 import './Home.scss'
 
 export const Home = () => (
-    <div>HOME works</div>
+    <div id="home-page">
+        Home page works
+    </div>
 )

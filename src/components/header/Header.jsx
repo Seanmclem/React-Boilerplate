@@ -4,18 +4,11 @@ import './Header.scss'
 
 const Header = () => (
     <div className="navigation">
-        <NavLink activeClassName='active' to='/cart'>
-            Cart
+        <NavLink activeClassName='active' to='/'>
+            Home
         </NavLink>
-        <NavLink activeClassName='active' to='/logout'>
-            Logout
-        </NavLink>
-
-        <NavLink activeClassName='active' to='/sign-up'>
-            Sign Up
-        </NavLink>
-        <NavLink activeClassName='active' to='/login'>
-            Login
+        <NavLink activeClassName='active' to='/another'>
+            Another Page
         </NavLink>
     </div>
 )
